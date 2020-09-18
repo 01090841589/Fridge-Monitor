@@ -1,0 +1,14 @@
+diff a/web/backend/AI/Data/Results/Detection_Results.csv b/web/backend/AI/Data/Results/Detection_Results.csv	(rejected hunks)
+@@ -1,8 +1,12 @@
+  image,image_path,xmin,ymin,xmax,ymax,label,confidence,x_size,y_size
+++<<<<<<< Updated upstream
+ +buf_img.jpg,C:\Users\multicampus\_e\web\backend\AI\Data\Test_Images\buf_img.jpg,462,7,515,441,8,0.1334255188703537,807,489
+ +buf_img.jpg,C:\Users\multicampus\_e\web\backend\AI\Data\Test_Images\buf_img.jpg,521,0,585,485,8,0.17537760734558105,807,489
+ +buf_img.jpg,C:\Users\multicampus\_e\web\backend\AI\Data\Test_Images\buf_img.jpg,579,17,695,462,8,0.22886326909065247,807,489
+ +buf_img.jpg,C:\Users\multicampus\_e\web\backend\AI\Data\Test_Images\buf_img.jpg,521,0,585,485,2,0.11304079741239548,807,489
+ +buf_img.jpg,C:\Users\multicampus\_e\web\backend\AI\Data\Test_Images\buf_img.jpg,573,29,702,484,2,0.11788805574178696,807,489
+ +buf_img.jpg,C:\Users\multicampus\_e\web\backend\AI\Data\Test_Images\buf_img.jpg,254,213,355,287,2,0.14584046602249146,807,489
+ +buf_img.jpg,C:\Users\multicampus\_e\web\backend\AI\Data\Test_Images\buf_img.jpg,157,217,264,304,2,0.2873955965042114,807,489
+++=======
++ buf_img.jpg,C:\Users\project\Final\web\backend\AI\Data\Test_Images\buf_img.jpg,6,16,183,176,3,0.36360251903533936,225,225
+++>>>>>>> Stashed changes
