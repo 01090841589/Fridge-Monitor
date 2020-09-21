@@ -2,7 +2,7 @@
 
 ## 냉장고 유통기한 관리 서비스
 
-장보고 온 품목들에 대하여 사진을 찍어 등록하고, 유통기한 관리를 할 수 있습니다.
+장보고 온 품목들에 대하여 사진을 찍어 등록하고, 각 품목에 대한 유통기한 관리를 할 수 있습니다.
 
 ## 1. Frontend - Vue.js
 
@@ -31,6 +31,8 @@ npm install
 ```
 npm run serve
 ```
+
+
 
 ## 2. Backend - Anaconda
 
@@ -129,13 +131,15 @@ from media.AI import Image_Searcher
 
 로그인을 해야 사용 가능 (개인별 냉장고 관리)
 
-****
+
 
 ### 5-2. 회원가입 페이지
 
 ![signup](./Images/signup.JPG)
 
 회원가입 페이지
+
+
 
 ### 5-3. 메인 페이지
 
@@ -148,6 +152,8 @@ from media.AI import Image_Searcher
 층별로 보기를 클릭하면 각 층별로 어떤 물품이 있는지 나타나는 페이지로 이동
 
 각 품목을 클릭하면 각 품목의 정보가 나타나는 페이지로 이동
+
+
 
 ### 5-4. 예측 결과 및 저장 페이지
 
@@ -186,3 +192,4 @@ from media.AI import Image_Searcher
 ![signup](./Images/add4.JPG)
 
 이미지 인식 기능을 통하지 않고 직접 제품을 등록해줄 수 있도록 하는 페이지
+
